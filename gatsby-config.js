@@ -20,6 +20,10 @@ module.exports = {
         name: `github`,
         url: `https://github.com/tlakomy`,
       },
+      {
+        name: `egghead.io`,
+        url: `https://egghead.io/instructors/tomasz-lakomy?af=6p5abz`,
+      },
     ],
   },
 }

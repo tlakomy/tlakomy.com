@@ -7,7 +7,7 @@ import { Styled } from "theme-ui"
 
 export default () => (
   <Fragment>
-    Tomasz is a Senior Frontend Engineer @{" "}
+    Tomasz Łakomy is a Senior Frontend Engineer @{" "}
     <Styled.a href="https://www.olxgroup.com/">OLX Group</Styled.a>, tech
     speaker,{" "}
     <Styled.a href="https://egghead.io/instructors/tomasz-lakomy?af=6p5abz">
