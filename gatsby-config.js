@@ -4,12 +4,13 @@ module.exports = {
       resolve: `gatsby-theme-blog`,
       options: {},
     },
+    "gatsby-plugin-react-helmet",
   ],
   // Customize your site metadata:
   siteMetadata: {
     title: `Tomasz's blog`,
     author: `Tomasz Łakomy`,
-    description: `Sometimes I put my thoughts into writing. Sometimes they even make sense. This is where they'll live`,
+    description: `Articles and notes from Tomasz Łakomy, frontend engineer and an egghead.io instructor`,
     social: [
       {
         name: `twitter`,
