@@ -7,10 +7,12 @@ import { Styled } from "theme-ui"
 
 export default () => (
   <Fragment>
-    This is where <Styled.a href="http://example.com/">your name</Styled.a>
-    {` `}
-    goes.
-    <br />
-    Or whatever, you make the rules.
+    Tomasz is a Senior Frontend Engineer @{" "}
+    <Styled.a href="https://www.olxgroup.com/">OLX Group</Styled.a>, tech
+    speaker,{" "}
+    <Styled.a href="https://egghead.io/instructors/tomasz-lakomy?af=6p5abz">
+      egghead.io
+    </Styled.a>{" "}
+    instructor and a ... jQuery evangelist
   </Fragment>
 )
