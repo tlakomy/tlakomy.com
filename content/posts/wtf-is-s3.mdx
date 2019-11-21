@@ -1,0 +1,36 @@
+---
+title: WTF is Amazon S3?
+date: 2019-11-21
+---
+
+Amazon S3 is one of those things you may have heard about in the context of:
+
+> So, we keep our static files on Amazon S3
+
+or
+
+> Every image uploaded to dev.to is stored on an S3 bucket (_which is true, btw_)
+
+and if you're not sure what _exactly_ S3 is, this post is for you.
+
+# WTF is Amazon S3?
+
+Amazon S3 stands for _Amazon Simple Storage Service_ and it's one of the most popular services provided by AWS (_Amazon Web Services_).
+
+It's an object storage service which takes care of scalability, data availability, security, and performance. By "_object storage service_" I mean - "_this is a place for you to store your files_".
+
+Files in S3 are stored in things called **buckets**, which sounds weird at the beginning but you quickly get used to it. What's important to remember is that S3 bucket names need to be **globally unique**.
+
+If I've created a bucket called `tlakomyBucket`, you are **not** able to create a bucket with exactly the same name, no matter how hard you try.
+
+Speaking of names, you're not able to change the bucket name after you create it - choose wisely!
+
+S3 offers virtually unlimited storage capacity, if you managed to collect every cat picture on the Internet, you'd be able to put it on S3.
+
+There are two kind of buckets: private or public ones. If, for instance, you allow users to upload their CVs to a website, you'd probably want to use a private bucket. S3 can be used for hosting static websites and in order to do that - you need to convert it to a public one. By default all newly created buckets and their contents are **private**.
+
+The image with 3 buckets on top of this post is, in fact, hosted on S3, here's the url:
+
+`https://thepracticaldev.s3.amazonaws.com/i/sph8x1z6yinrx1l0pq54.jpg`
+
+as you can see, name of the bucket is `thepracticaldev`. AWS does **a lot** of things to ensure that this file is accessible 99.99999999% of the time (literally).
